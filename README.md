@@ -44,6 +44,17 @@ The NodeMCU hardware displays time left to send the next RSSI value  on a 7-segm
 ==> Chart.js for real-time signal strength graph.
 
 ==> Custom CSS/JS/HTML for a responsive dashboard.
+# File Structure Should be
+EchoFi/
+├── public/                    # Static files served by the server
+│   ├── index.html             # Main dashboard page
+│   ├── style.css              # Styles for the dashboard
+│   ├── script.js              # Front-end JS (chart logic, data fetching)
+├── data.csv                   # CSV file where RSSI data is logged
+├── server.js                  # Express.js server
+├── package.json               # Project config and dependencies
+├── package-lock.json          # Auto-generated after npm install
+├── node_modules/              # Installed dependencies
 
 # Getting Started
 1. Backend Setup
@@ -52,12 +63,16 @@ git clone https://github.com/Krishnanunni11/EchoFi.git
 cd EchoFi
 
 2. Install dependencies:
-npm install
+npm init -y
+npm install express cors body-parser
 
-3. Start the server:
+4. Start the server:
 node index.js
 
-4. Server will listen on http://localhost:3000
+Run the Server:
+node server.js
+
+6. Server will listen on http://localhost:3000
 
 # Dashboard Usage
 Visit http://localhost:3000 in your browser.
