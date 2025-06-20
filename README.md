@@ -22,11 +22,11 @@ The Node.js backend appends each reading to a CSV file (data.csv).
 The front-end dashboard (hosted by the Node.js server) loads the latest data:
 
 Renders a responsive RSSI graph using Chart.js.
-
+![DashBoard](dashboard1.png)
 Shows an interactive table with historical readings.
-
+![DashBoard](dashboard2.png)
 Displays the current selected location.
-
+![DashBoard](dashboard3.png)
 Allows you to update the measurement location dynamically.
 
 Offers a one-click CSV download of all readings.
