@@ -45,7 +45,7 @@ The NodeMCU hardware displays time left to send the next RSSI value  on a 7-segm
 
 ==> Custom CSS/JS/HTML for a responsive dashboard.
 # File Structure Should be
-![App Screenshot](file_structure.jpg)
+![File Structure](file_structure.png)
 # Getting Started
 1. Backend Setup
 Clone the repo:
