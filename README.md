@@ -48,8 +48,8 @@ The NodeMCU hardware displays time left to send the next RSSI value  on a 7-segm
 # Getting Started
 1. Backend Setup
 Clone the repo:
-git clone https://github.com/yourusername/echofi.git
-cd echofi
+git clone https://github.com/Krishnanunni11/EchoFi.git
+cd EchoFi
 
 2. Install dependencies:
 npm install
