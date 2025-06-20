@@ -62,7 +62,7 @@ node index.js
 # Dashboard Usage
 Visit http://localhost:3000 in your browser.
 
-🖱==> View the live RSSI graph.
+==> View the live RSSI graph.
 
 ==> Download historical data as CSV.
 
