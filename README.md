@@ -45,17 +45,7 @@ The NodeMCU hardware displays time left to send the next RSSI value  on a 7-segm
 
 ==> Custom CSS/JS/HTML for a responsive dashboard.
 # File Structure Should be
-EchoFi/
-├── public/                    # Static files served by the server
-│   ├── index.html             # Main dashboard page
-│   ├── style.css              # Styles for the dashboard
-│   ├── script.js              # Front-end JS (chart logic, data fetching)
-├── data.csv                   # CSV file where RSSI data is logged
-├── server.js                  # Express.js server
-├── package.json               # Project config and dependencies
-├── package-lock.json          # Auto-generated after npm install
-├── node_modules/              # Installed dependencies
-
+![App Screenshot](file_structure.jpg)
 # Getting Started
 1. Backend Setup
 Clone the repo:
