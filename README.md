@@ -24,9 +24,9 @@ The front-end dashboard (hosted by the Node.js server) loads the latest data:
 Renders a responsive RSSI graph using Chart.js.
 ![DashBoard](dashboard1.png)
 Shows an interactive table with historical readings.
-![DashBoard](dashboard2.png)
+![DashBoard](dashboard2.PNG)
 Displays the current selected location.
-![DashBoard](dashboard3.png)
+![DashBoard](dashboard3.PNG)
 Allows you to update the measurement location dynamically.
 
 Offers a one-click CSV download of all readings.
